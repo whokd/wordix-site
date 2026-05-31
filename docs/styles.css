@@ -64,15 +64,11 @@ a {
 }
 
 .mark {
-  display: grid;
   width: 34px;
   height: 34px;
-  place-items: center;
-  border-radius: 9px;
-  background: var(--green);
-  color: #fff;
-  font-size: 20px;
-  font-weight: 900;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .links {
